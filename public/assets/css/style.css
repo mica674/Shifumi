@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "japanWave";
+    src: url(../font/Japan\ wave.ttf);
+}
+
+body{
+    background: url("../img/wallpaper_panda.webp");
+    background-size: cover;
+    background-position-x: center;
+}
+
+h1{
+    color: #b6b2a1;
+    font-style: italic;
+    font-family: "japanWave";
+    font-size: 5rem ;
+}
+
+h2{
+    color: #b6b2a1;
+    font-family: "japanWave";
+}
+
+p{
+    color: black;
+    font-family: "japanWave";
+}
+
+label{
+    color: black;
+    font-family: "japanWave";
+}
+
+#helpIcon{
+    width: 10vw;
+    position: absolute;
+    right: 5vw;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.imgBadge{
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+button{
+    border : 0px;
+    padding: 0px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    font-family: "japanWave";
+    font-weight: bold;
+}
+
+.resultFight{
+    background-color: transparent;
+    border: 0;
+    width: 100vw;
+    font-size: 3rem;
+    color: black;
+}
+
+.shining{
+    border: 5px solid;
+    border-color: #b6b2a1;
+}
+
+.imgRules{
+    width: 100%;
+}
+
+.cptWLS{
+    width: 10vw;
+}
+
+.paragraphes{
+    position: relative;
+    bottom: -30px;
+    margin: 10 auto;
+}
+
+@media screen and (min-width:800px) {
+    #helpIcon{
+        width: 5vw;
+        right: 1vw;
+    }
+}
