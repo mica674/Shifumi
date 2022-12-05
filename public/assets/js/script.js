@@ -168,7 +168,6 @@ btn.forEach((button) => {
             currentValuesJson.cptLose = cptLose;
             currentValuesObj = JSON.stringify(currentValuesJson)
             localStorage.setItem("currentValues", currentValuesObj);
-
         })
     }
 
