@@ -13,6 +13,7 @@ const cptWinDisplay = document.querySelector('#cptWin');
 const cptLoseDisplay = document.querySelector('#cptLose');
 const cptStatsDisplay = document.querySelector('#cptStats');
 
+
 // Local Storage
 let currentValuesJson = {
     cptWin: 0,
@@ -149,7 +150,7 @@ btn.forEach((button) => {
 
             currentValuesJson.cptWin = cptWin;
             currentValuesJson.cptLose = cptLose;
-            currentValuesObj = JSON.stringify(currentValuesJson)
+            currentValuesObj = JSON.stringify(currentValuesJson);
             localStorage.setItem("currentValues", currentValuesObj);
 
             console.log('Win : ' + currentValuesJson.cptWin + '; Lose : ' + currentValuesJson.cptLose + '; Stats : ' + calcStats());
@@ -166,7 +167,7 @@ btn.forEach((button) => {
             // Enregistrer les valeurs de win et lose dans localStorage
             currentValuesJson.cptWin = cptWin;
             currentValuesJson.cptLose = cptLose;
-            currentValuesObj = JSON.stringify(currentValuesJson)
+            currentValuesObj = JSON.stringify(currentValuesJson);
             localStorage.setItem("currentValues", currentValuesObj);
         })
     }
